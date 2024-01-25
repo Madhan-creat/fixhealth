@@ -5,8 +5,10 @@ import axios from "axios";
 export const useForm = (validate: any) => {
   const [values, setValues] = useState({
     name: "",
-    email: "",
-    message: "",
+    phone:"",
+    age:"",
+    city:"",
+    company:""
   });
   const [errors, setErrors] = useState({});
   const [shouldSubmit, setShouldSubmit] = useState(false);
@@ -36,7 +38,7 @@ export const useForm = (validate: any) => {
 
   useEffect(() => {
     if (Object.keys(errors).length === 0 && shouldSubmit) {
-      setValues((values) => (values = { name: "", email: "", message: "" }));
+      setValues((values) => (values = { name: "", phone: "",age:"",city:"",company:""}));
       openNotificationWithIcon();
     }
   }, [errors, shouldSubmit]);

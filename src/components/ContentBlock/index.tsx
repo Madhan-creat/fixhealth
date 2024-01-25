@@ -61,13 +61,14 @@ const ContentBlock = ({
                         id: number
                       ) => {
                         return (
-                          <Button
-                            key={id}
-                            color={item.color}
-                            onClick={() => scrollTo("about")}
-                          >
-                            {t(item.title)}
-                          </Button>
+                          <a href="https://www.fixhealth.com/" > <Button
+                          key={id}
+                          color={item.color}
+                          
+                        >
+                          {t(item.title)}
+                        </Button> </a>
+                         
                         );
                       }
                     )}

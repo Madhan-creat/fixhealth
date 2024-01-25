@@ -1,10 +1,7 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Online Physiotherapy at Home",
+  "text": "Fix Health (YourPhysio previously) was started by Dr. Sheetal Mundhada who's a renowned physiotherapist with 33+ years of experience. The team has 60+ physiotherapists & has delivered 30,000+ online sessions with 96% patient satisfaction.",
   "button": [
-    {
-      "title": "Explore"
-    },
     {
       "title": "Learn more",
       "color": "#fff"

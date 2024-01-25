@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="ashhar.akhlaque@yourphysio.in">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -75,13 +75,13 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Parangi Palaya, Sector 2</Para>
+              <Para>HSR Layout</Para>
+              <Para>Bengaluru, Karnataka</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
+              <Large to="/"><a href="https://www.fixhealth.com/about">{t("About")}</a></Large>
               <Large to="/">{t("Blog")}</Large>
               <Large to="/">{t("Press")}</Large>
               <Large to="/">{t("Careers & Culture")}</Large>
@@ -113,7 +113,7 @@ const Footer = ({ t }: { t: TFunction }) => {
       <Extra>
         <Container border={true}>
           <Row
-            justify="space-between"
+            justify="center"
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
@@ -122,38 +122,32 @@ const Footer = ({ t }: { t: TFunction }) => {
                 <SvgIcon
                   src="logo.svg"
                   aria-label="homepage"
-                  width="101px"
+                  width="100px"
                   height="64px"
                 />
               </LogoContainer>
             </NavLink>
             <FooterContainer>
+             
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/yourphysio_in"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="hhttps://www.linkedin.com/company/fixhealth-com/?originalSubdomain=in"
                 src="linkedin.svg"
               />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
+
               <a
-                href="https://ko-fi.com/Y8Y7H8BNJ"
+                href="https://fixhealth.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   height="36"
                   style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
+                  src="https://parktrent.com.au/wp-content/uploads/2015/05/Book-Appointment-Button.png"
+                  alt="Get a Appointment"
                 />
               </a>
             </FooterContainer>

@@ -1,4 +1,4 @@
 {
-    "title": "Contact form",
-    "text": "The following form demonstrates form validation in action. Contact form component reduces the amount of time it is being re-rendered by the user as it embraces uncontrolled form validation to reduce any unnecessary performance penalty."
+    "title": "Consultation booking form",
+    "text": "The following form used by professionals to book time with their a doctor's. It is important to determine appointment bookings in a professional manner, to help ensure that the client is able to secure a time slot that suits them."
 }
